@@ -3,7 +3,7 @@ package com.design.pattern.adapter.delegation;
 /**
  * 请求者
  * <p>
- * 继承方式适配
+ * 委托方式适配
  *
  * @author summer
  */

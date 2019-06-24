@@ -1,7 +1,7 @@
 package com.design.pattern.adapter.delegation;
 
 /**
- * 继承模式适配
+ * 委托模式适配
  * 对象 target
  *
  * @author summer  ps.抽象类命名规则 Base/Abstract 开头

@@ -3,7 +3,7 @@ package com.design.pattern.adapter.inherit;
 /**
  * 请求者
  * <p>
- * 委托方式适配
+ * 继承方式适配
  *
  * @author summer
  */
