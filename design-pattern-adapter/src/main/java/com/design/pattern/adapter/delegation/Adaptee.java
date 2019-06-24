@@ -1,6 +1,8 @@
 package com.design.pattern.adapter.delegation;
 
 /**
+ * 被适配对象
+ *
  * @author summer
  */
 public class Adaptee {

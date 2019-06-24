@@ -1,4 +1,4 @@
-package com.design.pattern.adapter.inherit;
+package com.design.pattern.adapter.delegation;
 
 /**
  * 继承模式适配

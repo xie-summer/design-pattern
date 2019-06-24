@@ -1,9 +1,19 @@
 package com.design.pattern.adapter.delegation;
 
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
 /**
+ * 适配
+ *
  * @author summer
  */
-public class Adapter extends Adaptee implements Target {
+@EqualsAndHashCode(callSuper = true)
+@Data
+public class Adapter extends AbstractTarget {
+
+    private Adaptee adaptee;
+
     /**
      * 目标方法A
      */
@@ -11,7 +21,7 @@ public class Adapter extends Adaptee implements Target {
     public void targetMethodA() {
         System.out.println("targetMethodA");
         //进行适配
-        super.method1();
+        adaptee.method1();
     }
 
     /**
@@ -21,7 +31,7 @@ public class Adapter extends Adaptee implements Target {
     public void targetMethodB() {
         System.out.println("targetMethodB");
         //进行适配
-        super.method2();
-        super.method3();
+        adaptee.method2();
+        adaptee.method3();
     }
 }

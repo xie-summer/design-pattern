@@ -1,8 +1,6 @@
 package com.design.pattern.adapter.inherit;
 
 /**
- * 被适配对象
- *
  * @author summer
  */
 public class Adaptee {

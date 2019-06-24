@@ -1,4 +1,4 @@
-package com.design.pattern.adapter.delegation;
+package com.design.pattern.adapter.inherit;
 
 /**
  * @author summer

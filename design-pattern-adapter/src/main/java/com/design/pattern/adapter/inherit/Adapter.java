@@ -1,19 +1,9 @@
 package com.design.pattern.adapter.inherit;
 
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-
 /**
- * 适配
- *
  * @author summer
  */
-@EqualsAndHashCode(callSuper = true)
-@Data
-public class Adapter extends AbstractTarget {
-
-    private Adaptee adaptee;
-
+public class Adapter extends Adaptee implements Target {
     /**
      * 目标方法A
      */
@@ -21,7 +11,7 @@ public class Adapter extends AbstractTarget {
     public void targetMethodA() {
         System.out.println("targetMethodA");
         //进行适配
-        adaptee.method1();
+        super.method1();
     }
 
     /**
@@ -31,7 +21,7 @@ public class Adapter extends AbstractTarget {
     public void targetMethodB() {
         System.out.println("targetMethodB");
         //进行适配
-        adaptee.method2();
-        adaptee.method3();
+        super.method2();
+        super.method3();
     }
 }
