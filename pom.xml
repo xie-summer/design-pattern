@@ -12,6 +12,7 @@
     <modules>
         <module>design-pattern-adapter</module>
         <module>design-pattern-iterator</module>
+        <module>design-pattern-template-method</module>
     </modules>
     <dependencies>
         <dependency>
