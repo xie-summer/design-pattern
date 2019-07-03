@@ -13,6 +13,7 @@
         <module>design-pattern-adapter</module>
         <module>design-pattern-iterator</module>
         <module>design-pattern-template-method</module>
+        <module>design-pattern-singleton</module>
     </modules>
     <dependencies>
         <dependency>

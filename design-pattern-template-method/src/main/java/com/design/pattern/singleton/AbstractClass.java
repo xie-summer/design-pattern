@@ -1,4 +1,4 @@
-package com.design.pattern.template.method;
+package com.design.pattern.singleton;
 
 /**
  * 抽象类
